@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+}
+body{
+    background: #968b8e;
+}
+.content{
+    background: #695b5f;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.grid{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.square{
+    height: 200px;
+    width: 200px;
+    border: solid 1px;
+    border-radius: 5px;
+}
+.mole{
+    background-image: url("mole.png");
+    background-size: cover;
+}
